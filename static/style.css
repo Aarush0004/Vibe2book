@@ -1,8 +1,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #f3e8ff, #e6ccff);
+    background: linear-gradient(135deg, #0f172a, #020617);
     margin: 0;
     padding: 0;
+    color: #e5e7eb;
 }
 
 .container {
@@ -11,7 +12,7 @@ body {
 }
 
 h1 {
-    color: #4B0082;
+    color: #38bdf8; /* blue accent */
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
@@ -19,37 +20,42 @@ h1 {
 label {
     font-size: 18px;
     margin-right: 10px;
-    color: #4B0082;
+    color: #cbd5f5;
 }
 
 textarea {
     width: 80%;
     max-width: 600px;
     font-size: 16px;
-    padding: 10px;
-    border-radius: 6px;
-    border: 2px solid #a682ff;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #334155;
     resize: vertical;
-    background-color: #E6E6FA;
-    color: #4B0082;
+    background-color: #020617;
+    color: #e5e7eb;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #94a3b8;
 }
 
 button {
-    background-color: #CBA8F5;
-    color: #4B0082;
-    padding: 10px 20px;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    color: #ffffff;
+    padding: 12px 24px;
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 18px;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35);
 }
 
 button:hover {
-    background-color: #b188f3;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.5);
 }
 
 .book-list {
@@ -63,31 +69,33 @@ button:hover {
 .book-card {
     width: 160px;
     height: 270px;
-    background-color: white;
-    border-radius: 12px;
+    background-color: #020617;
+    border-radius: 14px;
     padding: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: transform 0.2s ease;
+    border: 1px solid #1e293b;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .book-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.8);
 }
 
 .book-card img {
     max-width: 100%;
     max-height: 200px;
     object-fit: contain;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .book-card p {
-    font-weight: bold;
+    font-weight: 600;
     margin-top: 10px;
     font-size: 14px;
-    color: #4B0082;
+    color: #e5e7eb;
     text-align: center;
 }
