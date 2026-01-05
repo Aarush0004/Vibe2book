@@ -1,6 +1,6 @@
 flask
 flask-cors
+gunicorn
 nltk
 text2emotion
 emoji==1.6.3
-
