@@ -12,7 +12,7 @@ This project is a web-based application that recommends books based on the user'
 ---
 
 ## 🚀 Demo
-![image](https://github.com/user-attachments/assets/15b6ec27-5d91-49ff-ad8e-181bcc1cd4bb)
+![image](assets/Output.jpeg)
 
 ## 🛠️ Tech Stack
 
