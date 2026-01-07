@@ -7,14 +7,14 @@ const books = {
     { title: "Good Vibes, Good Life", url: "https://m.media-amazon.com/images/I/61xbuSU9BlL._AC_UY436_QL65_.jpg" },
     { title: "Atomic Habits", url: "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" },
     { title: "Do It Today", url: "https://m.media-amazon.com/images/I/61ZPDQOjw-L.jpg" },
-    { title: "Think Like a Monk", url: "static/images/thinklikeamonk.jfif" },
+    { title: "Think Like a Monk", url: "https://m.media-amazon.com/images/I/81GlTN6QQrL._SY522_.jpg" },
     { title: "Rich Dad Poor Dad", url: "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg" },
-    { title: "The Psychology of Money", url: "static/images/the.jfif" },
-    { title: "How to Win Friends & Influence People", url: "static/images/how.jfif" },
-    { title: "Life's Amazing Secrets", url: "static/images/lifeamazingsecrets.jfif" },
-    { title: "Wings of Fire", url: "static/images/wingsoffire.jfif" },
-    { title: "You Can", url: "static/images/youcan.jfif" },
-    { title: "My Gita", url: "static/images/mygita.jfif" }
+    { title: "The Psychology of Money", url: "https://m.media-amazon.com/images/I/71XEsXS5RlL._AC_UY436_QL65_.jpg" },
+    { title: "How to Win Friends & Influence People", url: "https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY436_QL65_.jpg" },
+    { title: "Life's Amazing Secrets", url: "https://m.media-amazon.com/images/I/81yxRLBMmkL._AC_UY436_QL65_.jpg" },
+    { title: "Wings of Fire", url: "https://m.media-amazon.com/images/I/91ALO8EHWLL._AC_UY436_QL65_.jpg" },
+    { title: "You Can", url: "https://m.media-amazon.com/images/I/81T05w0B3lL._AC_UY436_QL65_.jpg" },
+    { title: "My Gita", url: "https://m.media-amazon.com/images/I/61sDksLNw+L._AC_UY436_QL65_.jpg" }
   ],
   sad: [
     { title: "It Ends With Us", url: "https://m.media-amazon.com/images/I/81s0B6NYXML.jpg" },
