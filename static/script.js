@@ -1,10 +1,10 @@
 const books = {
   happy: [
     { title: "Ikigai", url: "https://m.media-amazon.com/images/I/71tbalAHYCL.jpg" },
-    { title: "The Power of Your Subconscious Mind", url: "static/images/thepowerofyoursubconsciousmind.jfif"},
+    { title: "The Power of Your Subconscious Mind", url: "https://m.media-amazon.com/images/I/81gTwYAhU7L._SY522_.jpg"},
     { title: "The Alchemist", url: "https://m.media-amazon.com/images/I/71aFt4%2BOTOL.jpg" },
-    { title: "The Secret", url: "static/images/secret.jfif" },
-    { title: "Good Vibes, Good Life", url: "static/images/good.jfif" },
+    { title: "The Secret", url: "https://m.media-amazon.com/images/I/81aJOsDlbHL._AC_UY436_QL65_.jpg" },
+    { title: "Good Vibes, Good Life", url: "https://m.media-amazon.com/images/I/61xbuSU9BlL._AC_UY436_QL65_.jpg" },
     { title: "Atomic Habits", url: "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg" },
     { title: "Do It Today", url: "https://m.media-amazon.com/images/I/61ZPDQOjw-L.jpg" },
     { title: "Think Like a Monk", url: "static/images/thinklikeamonk.jfif" },
